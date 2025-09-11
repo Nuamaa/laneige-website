@@ -1,0 +1,107 @@
+.shade-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background: #fff0f5;
+}
+
+@media (min-width: 768px) {
+  .shade-section {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.shade-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.product-img {
+  max-width: 250px;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.2));
+}
+
+.shade-info {
+  flex: 1;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .shade-info {
+    text-align: left;
+  }
+}
+
+.shade-name {
+  font-size: 24px;
+  font-weight:500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  color: #333;
+}
+.shade-cname {
+  font-size: 18px;
+  font-weight:400;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  color: #525151;
+}
+
+.shade-circles {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .shade-circles {
+    justify-content: flex-start;
+  }
+}
+
+.shade-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.shade-circle:hover {
+  transform: scale(1.1);
+}
+
+.shade-circle.active {
+  border: 2px solid blue;
+  transform: scale(1.15);
+}
+
+.shade-price {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-btn {
+  padding: 12px 30px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.add-btn:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+}
