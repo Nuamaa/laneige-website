@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/laneige-website">
         <Routes>
           <Route path="/" element={<Home/>} />
         </Routes>
