@@ -100,6 +100,8 @@
   top: 50%;
   left: 0;
   width: 60px;
+  height: 60px;       
+  object-fit: contain;
   transform: translate(-120%, -50%);
   z-index: 2;
 }
@@ -331,6 +333,8 @@
   }
   .donut {
     width: 36px;
+    height: 36px;       
+    object-fit: contain;
   }
   .serum {
     width: 50px;
@@ -436,6 +440,8 @@
   }
   .donut {
     width: 45px;
+    height: 45px;       
+    object-fit: contain;
   }
   .serum {
     width: 65px;
@@ -534,6 +540,8 @@
   }
   .donut {
     width: 55px;
+    height: 55px;       
+    object-fit: contain;
   }
   .serum {
     width: 75px;
