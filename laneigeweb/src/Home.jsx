@@ -190,7 +190,7 @@ const Home = () => {
         {/* Hero */}
         <section className="hero">
           <video autoPlay muted playsInline className="hero-video">
-            <source src="/Laneigehero.mp4" type="video/mp4" />
+            <source src="Laneigehero.mp4" type="video/mp4" />
           </video>
         </section>
 
