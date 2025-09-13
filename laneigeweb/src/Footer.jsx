@@ -33,7 +33,7 @@ const Footer = () => {
             <h4>LANEIGE PRODUCTS</h4>
             <p>Shop All</p>
             <p>Best Sellers</p>
-            <p>Water Bank</p>
+            <p>New</p>
           </div>
           <div>
             <h4>CUSTOMER CARE</h4>
@@ -52,7 +52,8 @@ const Footer = () => {
           </div>
           <hr />
           <br />
-          <p>Copyright ⓒ 2025</p>
+          <p>This is an unofficial student concept project, created for learning purposes. <br />
+          Copyright ⓒ 2025</p>
         </div>
       </div>
 
